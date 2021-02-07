@@ -1,6 +1,6 @@
 # cardCase
 
-* a template for displaying API-derived data in the form of cards
+* a react library for displaying API-derived data in the form of "cards"
 * this project was bootstrapped with [create-react-app](https://github.com/facebook/create-react-app)
 
 ## startup
