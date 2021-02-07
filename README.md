@@ -10,7 +10,11 @@ you should:
 * be comfy with using the Terminal or command line
 * have a JSON API endpoint ready 
 * know how to extract data from the API into a React component JSX template
-* optionally, know enough CSS to make a killer design
+* know enough HTML (and optionally, CSS) to make a decent design
+
+you do not: 
+
+* actually need to know React to enjoy using this and playing around with displaying data from APIs!
 
 ## startup
 
