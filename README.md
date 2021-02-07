@@ -16,11 +16,14 @@ you should:
 
 ### download
 
-from the command line:
+from the command line, run this command:
 
 ```
-$ git clone https://github.com/joncoded/cardcase.git .
+$ git clone https://github.com/joncoded/cardcase.git
 ```
+
+(a new folder will be created)
+
 ### install
 
 ```
