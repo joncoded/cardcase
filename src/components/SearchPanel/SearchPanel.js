@@ -7,7 +7,7 @@ const SearchPanel = (props) => {
   const [input, setInput] = useState('');
   const [cardCaseDefault, setCardCaseDefault] = useState();
   const [cardCase, setCardCase] = useState();
-  const { dataSource, heading } = props.config;
+  const { dataSource, heading, searchBy } = props.config;
 
   const getData = async() => {
   
@@ -27,7 +27,7 @@ const SearchPanel = (props) => {
     // go through list and get all countries
     const filtered = cardCaseDefault.filter(caseItem => {
       // ...lowercasing both data and user input to ensure sameness      
-      return caseItem.name.toLowerCase().includes(input.toLowerCase())
+      return caseItem[searchBy].toLowerCase().includes(input.toLowerCase())
     })
     
     // set states using hooks

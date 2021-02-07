@@ -6,7 +6,9 @@ function App() {
 
   const config = {
     dataSource : 'https://restcountries.eu/rest/v2/all',
-    heading : 'Title'
+    heading : 'CardCase (countries and regions of the world)',
+    // must be a first-level property 
+    searchBy: 'name'
   }
 
   return (
