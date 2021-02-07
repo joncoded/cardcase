@@ -5,10 +5,12 @@
 
 ## prerequisites
 
+you should: 
+
 * be comfy with using the Terminal or command line
 * have a JSON API endpoint ready 
 * know how to extract data from the API into a React component JSX template
-* optionally, know enough CSS to be dangerous
+* optionally, know enough CSS to make a killer design
 
 ## startup
 
