@@ -42,6 +42,7 @@ $ npm start
   * enter your title
 2. configure the structure of the card in `src/components/SearchPanel/CardCase/Card.js`
 3. optionally, configure the styling of the card in `src/index.css`
+4. modify the `homepage` property in `package.json` for deployment to gh-pages
 
 ## build
 
@@ -55,6 +56,14 @@ $ npm run build
 * app becomes ready for [deployment](https://facebook.github.io/create-react-app/docs/deployment) 
 
 more in the [create-react-app documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+
+## deploy
+
+```
+$ npm run deploy
+```
+
+* get it published on `yourname.github.io/cardcase` (or `yourname.github.io/reponame`)
 
 ## changelog
 
