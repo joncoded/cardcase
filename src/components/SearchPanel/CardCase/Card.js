@@ -8,7 +8,9 @@ const Card = (props) => {
 
       /* make card template here */
             
-      <h1>{data.name}</h1>
+      <div className="card">
+        <h2>{data.name}</h2>
+      </div>
 
     )
   }
