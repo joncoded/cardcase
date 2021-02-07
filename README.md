@@ -45,6 +45,10 @@ $ npm start
 
 ## build
 
+```
+$ npm run build
+```
+
 * builds the app for production to the `build` folder
 * bundles react in production mode
 * build is minified and the filenames include hashes
