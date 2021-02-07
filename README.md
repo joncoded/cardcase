@@ -73,7 +73,3 @@ $ npm run deploy
 ```
 
 * get it published on `yourname.github.io/cardcase` (or `yourname.github.io/reponame`)
-
-## changelog
-
-* 2021-02-06 started basic list
